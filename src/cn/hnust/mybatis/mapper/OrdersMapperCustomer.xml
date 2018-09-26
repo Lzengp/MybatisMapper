@@ -64,7 +64,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	  property：将关联查询到多条记录映射到Orders属性中
 	  ofType:指定映射到list集合属性中pojo的类型
 	  -->
-		  <collection property="orderdetail" ofType="cn.hnust.mybatis.po.Orderdetail">
+		  <collection property="orderdetails" ofType="cn.hnust.mybatis.po.Orderdetail">
 		  <!-- id:订单明细唯一标识
 		  		property：要将订单明细的唯一标识映射到Orderdetail的某个属性
 		   -->
